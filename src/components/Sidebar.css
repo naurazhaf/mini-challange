@@ -1,0 +1,38 @@
+.sidebar {
+  background-color: #f7f8fc;
+  padding: 20px;
+  width: 250px;
+  height: 100vh;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.wallets-section, .categories-section {
+  margin-bottom: 20px;
+}
+
+.wallet-item, .category-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.wallet-icon, .category-icon {
+  font-size: 24px;
+  color: #888;
+  margin-right: 10px;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+}
+
+span {
+  font-size: 12px;
+  color: #888;
+}

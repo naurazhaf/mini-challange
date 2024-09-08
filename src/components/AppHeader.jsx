@@ -1,6 +1,7 @@
 import React from 'react';
 import './AppHeader.css';  
-import walletLogo from '../assets/wallet-logo.jpg'; 
+import walletLogo from '../assets/dollar-bill.svg'; 
+import userProfile from '../assets/user.png'; 
 
 const AppHeader = () => {
   return (
@@ -18,7 +19,7 @@ const AppHeader = () => {
         <a href="#">Events</a>
       </nav>
       <div className="user-icon"> 
-        <img src="path-to-user-image.jpg" alt="User" />
+        <img src={userProfile} alt="User" /> 
       </div>
     </header>
   );

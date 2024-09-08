@@ -1,0 +1,81 @@
+.transaction-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.transaction-card:hover {
+    transform: translateY(-5px);
+}
+
+.transaction-info {
+    display: flex;
+    align-items: center;
+}
+
+.icon-wrapper {
+    /* background-color: #f0f4ff; */
+    padding: 0.75rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction-icon {
+    font-size: 1.5rem;
+    color: #4b5563;
+}
+
+.details {
+    margin-left: 1rem;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    color: #333;
+}
+
+.date {
+    font-size: 0.875rem;
+    color: #9ca3af;
+    margin: 0;
+}
+
+.transaction-actions {
+    display: flex;
+    align-items: center;
+}
+
+.amount {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f87171;
+    margin-right: 1rem;
+}
+
+.action-icons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.bookmark-btn, .delete-btn {
+    background-color: #f3f4f6;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.bookmark-btn:hover, .delete-btn:hover {
+    background-color: #e5e7eb;
+}
